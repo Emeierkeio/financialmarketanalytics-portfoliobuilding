@@ -37,7 +37,7 @@ At this time (July 2022) there are 102 stocks within the Nasdaq-100. The complet
 When building the dataset we put attention to the survivorship bias. The survivorship bias indicates the tendency to consider only existing or ”survivors” or ”winners” stocks when measuring the performance of a portfolio. This is a bias linked to the ”sample selection” in which observations that have already ceased to exist are not considered. For this reason, a portfolio’s return may be overestimated, leading to overly optimistic conclusions. To avoid survivorship bias, we need to make sure that all data is present and that no longer present observations have not been omitted. To create a dataset that takes into account the revisions that took place during the analysis period, we also downloaded the historical series of daily prices even for those stocks that are no longer part of the index, but that are still within the U.S. stock market. By checking the date on which a certain change took place, indicated by X, between a security A (incoming) and B (outgoing), we set to #N/A all the cells of B starting from X, valued the cells of A starting from X and setting to #N/A all cells of A prior to X. In these 5 years that we are analyzing, it can happen that a stock was removed from the Nasdaq-100. We also had to look up the prices of those stocks that are no longer listed. In this case we had to consider the sale price or what was obtained from a merge.
 
 ![Image3](report/LaTeX/portfoliosComparison.png)
-<u>*Please consult the report for details!*</u>
+<u>*Please read the report for more details!*</u>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
