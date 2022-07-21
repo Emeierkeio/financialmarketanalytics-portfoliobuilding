@@ -1,4 +1,6 @@
-![financialmarketanalytics-portfoliobuilding](./logos/logo.png)
+<p align="center">
+  <img src="./logos/logo.png" alt="Financial logo"/>
+</p>
 
 # Portfolio Building
 2021/22 Financial Market Analytics project @ University of Milano-Bicocca
